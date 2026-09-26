@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasteSync - Map</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+   
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+    <header>
+        <h1>WasteSync</h1>
+        <p>Smart Waste Management System</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="map.html" class="active">Map</a>
+        <a href="awareness.html">Recycle Awareness</a>
+        <a href="form.html">Fill Form</a>
+    </nav>
+
+    <div class="container">
+        <h2 style="color: #2e7d32; text-align: center; margin-top: 0;">Find a Recycle Bin Near You</h2>
+        <p style="text-align: center; color: #333;">Use our map to locate the nearest official garbage pickup destination.</p>
+        
+        <!-- Map Container -->
+        <div id="map"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 WasteSync. All Rights Reserved.<br><br>Developed by : Jidnyasa Chavan & Pal Chheda</p>
+    </footer>
+
+    <!-- Custom App Logic Script -->
+    <script src="script.js"></script>
+</body>
+</html>

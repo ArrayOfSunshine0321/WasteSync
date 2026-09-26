@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WasteSync</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header{
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav{
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color: #a5d6a7;
+        }
+nav a.active {
+    color: #b7fad8;
+    text-shadow: 0 0 10px #03331b;
+}
+        .container{
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .container {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+        .welcome-box{
+            text-align: center;
+            padding: 20px;
+        }
+        .welcome-box img{
+            width: 300px;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .features{
+            margin-top: 30px;
+        }
+        .feature-item{
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #fafafa;
+        }
+        .feature-item h3{
+            color: #2e7d32;
+            margin-top: 0;
+        }
+        .btn{
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: #1b5e20;
+        }
+        footer{
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>WasteSync</h1>
+        <p>Smart Waste Management System</p>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="map.html">Map</a>
+        <a href="Awareness.html">Recycle Awareness</a>
+        <a href="form.html">Fill Form</a>
+    </nav>
+
+    <div class="container">
+        <div class="welcome-box">
+            <h2>Welcome to WasteSync</h2>
+            <p>We help manage daily household and urban waste efficiently to keep our city clean and green.</p>
+        </div>
+    
+        <img src="Untitled design(1).png" width="1080" height="580" alt="WasteSync Image" style="max-width:100%; height:auto;">
+        <br /><br />
+        <button class="btn" onclick="showMessage()">Click to Learn Quick Facts</button>
+        
+        <hr />
+        
+        <div class="features">
+            <h2>Our Core Services</h2>
+        
+            <div class="feature-item">
+                <h3>1. Official garbage pick-up destinations of Mumbai</h3>
+                <p>Users can locate the nearest official garbage pickup destination on map where we have highlighted all the destinations.</p>
+            </div>
+            <div class="feature-item">
+                <h3>2. User-friendly Form</h3>
+                <p>We have provided sign-in option where users are expected to fill everything so that they can easily locate their nearest garbage-pickup destination.</p>
+            </div>
+            <div class="feature-item">
+                <h3>3. Recycling & Awareness</h3>
+                <p>Get information on how to segregate wet, dry, and electronic waste properly.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 WasteSync. All Rights Reserved.<br><br>Developed by : Jidnyasa Chavan & Pal Chheda</p>
+    </footer>
+
+    <script>
+        function showMessage(){
+            alert("Did you know? Recycling 1 ton of paper saves 17 trees! Keep using WasteSync.");
+        }
+    </script>
+
+</body>
+</html>

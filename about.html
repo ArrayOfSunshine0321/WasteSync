@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WasteSync - About Us</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color: #a5d6a7;
+        }
+nav a.active {
+    color: #b7fad8;
+    text-shadow: 0 0 10px #03331b;
+}
+        .container{
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .container {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+        #Waste-h2{
+            color: #2e7d32;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        .about-section{
+            padding: 10px 0;
+        }
+        .about-section h2 {
+            color: #2e7d32;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .team-box{
+            border: 1px solid #ddd;
+            padding: 15px; 
+            margin-top: 15px; 
+            background-color: #fafafa; 
+        }
+        .team-box h3{
+            margin-top: 0;
+            color: #1b5e20;
+        }
+        .btn{
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .btn:hover{
+            background-color: #1b5e20;
+        }
+        footer{
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="map.html">Map</a>
+        <a href="Awareness.html">Recycle Awareness</a>
+        <a href="form.html">Fill Form</a>
+    </nav>
+
+    <div class="container">
+        <h2 id="Waste-h2">About WasteSync Project</h2>
+        <p>This project was developed as a part of our first-year college course work to demonstrate basic web development skills using HTML, CSS, and JavaScript.</p>
+
+        <div class="about-section">
+            <h2>Our Objectives</h2>
+            <ul>
+                <li>To promote clean and green surroundings.</li>
+                <li>To inform residents about proper waste disposal methods.</li>
+                <li>To reduce environmental pollution caused by unmanaged waste.</li>
+            </ul>
+        </div>
+
+        <div class="about-section">
+            <h2>Project Team</h2>
+            <div class="team-box">
+                <h3>Developed by:</h3>
+                <p><strong>Student 1 Name:&nbsp;</strong>Jidnyasa Chavan</p>
+                <p><strong>Student 2 Name:&nbsp;</strong>Pal Chheda</p>
+                <p><strong>Course:&nbsp;</strong>Information Technology</p>
+                <p><strong>Subject:&nbsp;</strong>Web Fundamentals</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <button class="btn" onclick="showContactInfo()">Contact Project Team</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 WasteSync. All Rights Reserved<br><br>Developed by : Jidnyasa Chavan & Pal Chheda</p>
+    </footer>
+
+    <script>
+        function showContactInfo() {
+            alert("Contact us at: student@college.edu.in");
+        }
+    </script>
+
+</body>
+</html>

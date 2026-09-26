@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasteSync - Schedule Drop-off</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <header>
+        <h1>WasteSync</h1>
+        <p>Smart Waste Management System</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="map.html">Map</a>
+        <a href="awareness.html">Recycle Awareness</a>
+        <a href="form.html" class="active">Fill Form</a>
+    </nav>
+
+    <div class="container">
+        <form id="garbage-form" action="" method="">
+            <h3>Fill the Form</h3>
+            
+            <label for="user-name">Your Name (As per Government ID):</label>
+            <input type="text" id="user-name" placeholder="Enter full name" required name="fname">
+
+            <label for="garbage-type">Type of Garbage:</label>
+            <select id="garbage-type" required>
+                <option value="" disabled hidden selected>Select your waste type</option>
+                <option value="plastic">Plastic</option>
+                <option value="glass">Glass</option>
+                <option value="e-waste">E-Waste</option>
+                <option value="organic">Organic</option>
+            </select>
+
+            <label for="location-select">Select a Location:</label>
+            <select id="location-select" required>
+                <option value="" disabled hidden selected>Select nearest location</option>
+                <option value="strand-cinema">Strand Cinema Junction</option>
+                <option value="regal-circle">Regal Circle Point</option>
+                <option value="charni-road">Charni Road West Gate</option>
+                <option value="worli-naka">Worli Naka Dump Yard</option>
+                <option value="phoenix-mall">Phoenix Mall Service Gate</option>
+                <option value="linking-road">Linking Road Collection Depot</option>
+                <option value="waterfield-road">Waterfield Road Corner</option>
+                <option value="chembur-station">Chembur (Railway Station)</option>
+                <option value="juhu-scheme">Juhu Scheme Circle</option>
+                <option value="mahavir-nagar">Mahavir Nagar Junction</option>
+                <option value="govandi-east">Govandi East (Deonar Area)</option>
+            </select>
+
+            <div class="btn-group">
+                <button type="reset" class="btn-reset">Reset</button>
+                <button type="submit" class="btn-submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 WasteSync. All Rights Reserved.<br><br>Developed by : Jidnyasa Chavan & Pal Chheda</p>
+    </footer>
+
+</body>
+</html>
